@@ -1,6 +1,6 @@
 # Q-Skills
 
-QoderWork Skills Collection - 32 agent skills for productivity, data analysis, document generation, and more.
+QW Skills Collection - 32 agent skills for productivity, data analysis, document generation, and more.
 
 ## Skills Overview
 
@@ -15,7 +15,7 @@ QoderWork Skills Collection - 32 agent skills for productivity, data analysis, d
 
 ## Usage
 
-These skills are designed for use with [QoderWork](https://docs.qoder.com/qoderwork/introduction). Each skill directory contains a `SKILL.md` manifest and supporting files that define the skill's behavior and capabilities.
+These skills are designed for use with [QodeR]. Each skill directory contains a `SKILL.md` manifest and supporting files that define the skill's behavior and capabilities.
 
 ## License
 
