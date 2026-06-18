@@ -1,6 +1,7 @@
 ---
 name: dev-favorites-updater
 description: Execute the complete daily update workflow for a personal development favorites collection. Covers parallel web searches (tech news, consumer brand AI, stock market, arXiv papers, GitHub trending), writes categorized Markdown files, performs four-question deep analysis, regenerates favorites.xlsx with openpyxl charts and conditional formatting, rebuilds the interactive dashboard.html, syncs to GitHub Pages, and commits to the git repository. Use when the user asks to run the daily update, sync favorites, or perform any combination of these tasks.
+description_zh: "执行个人开发收藏集的每日更新工作流，涵盖抓取、分类、去重和发布"
 ---
 
 # Dev Favorites Daily Updater

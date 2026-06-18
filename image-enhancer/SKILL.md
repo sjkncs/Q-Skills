@@ -1,6 +1,7 @@
 ---
 name: image-enhancer
 description: Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.
+description_zh: "改善图像质量（尤其是截图），增强分辨率、清晰度和可读性"
 install_source: official
 install_method: download
 skill_id: official70744554

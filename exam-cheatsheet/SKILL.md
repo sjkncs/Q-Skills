@@ -1,6 +1,7 @@
 ---
 name: exam-cheatsheet
 description: Generate comprehensive 2-page A4 exam cheat sheets from course materials (PPT/PDF/DOCX). Combines formulas (LaTeX via KaTeX), numerical values, knowledge maps, calculation problems, essay templates, and Q&A into a dense multi-column HTML, then converts to PDF via Chrome headless. Use when the user wants a cheat sheet, exam reference, quick-lookup sheet, or study guide from course materials.
+description_zh: "从课程材料（PPT/PDF/DOCX）生成综合2页A4考试速查表，结合公式、定义和关键概念"
 ---
 
 # Exam Cheat Sheet Generator

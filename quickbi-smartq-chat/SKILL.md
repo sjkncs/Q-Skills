@@ -1,6 +1,7 @@
 ---
 name: quickbi-smartq-chat
 description: |
+description_zh: "QuickBI智能问答，通过对话方式查询和分析数据"
   Quick BI-智能分析 技能，具备多种数据分析能力:
   1. **数据集问数**：自然语言查询 Quick BI 平台数据集，自动智能选表匹配
   2. **文件问数**：上传 Excel/CSV 文件，通过 Quick BI API 进行智能分析

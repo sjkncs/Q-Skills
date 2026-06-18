@@ -1,6 +1,7 @@
 ---
 name: weekly-report-writer
 description: 此技能通过综合 Obsidian 笔记库中的文档进度来起草周报。适用于用户希望基于最近创建的文件、上一份报告和项目背景文档生成每周摘要的场景。
+description_zh: "个人周报生成器，综合Obsidian笔记库中的条目和任务记录，生成结构化的每周工作总结"
 author: github/cafe3310
 license: Apache-2.0
 install_source: official

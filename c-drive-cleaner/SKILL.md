@@ -1,6 +1,7 @@
 ---
 name: c-drive-cleaner
 description: Analyze and clean Windows C drive space. Scan for large files and folders, categorize them (movable user data vs system/software/env config), present a cleanup plan, and move selected items to another drive using robocopy. Use when user mentions cleaning C drive, low disk space, disk cleanup, moving large files to another drive, or freeing up space on system drive.
+description_zh: "分析和清理Windows C盘空间，扫描大文件和文件夹并分类（可移动/可压缩/可删除）"
 ---
 
 # C Drive Cleaner

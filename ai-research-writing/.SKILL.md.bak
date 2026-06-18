@@ -1,0 +1,144 @@
+---
+name: ai-research-writing
+description: Comprehensive AI-assisted academic paper writing workflow for CS/ML/quantitative finance papers. Use when the user needs to write, polish, or structure research papers, create bilingual (Chinese/English) academic content, generate paper drafts from conference paper analyses, or adapt research methodologies to new domains (e.g., adapting ML papers to quantitative finance). Supports LaTeX and Word output formats.
+version: 1.0.0
+---
+
+# AI Research Writing Workflow / AI辅助学术论文写作工作流
+
+Based on [awesome-ai-research-writing](https://github.com/yunyunfanfan/awesome-ai-research-writing) — "Make AI Writing Better for Everyone"
+
+## Core Principles / 核心原则
+
+1. **先定结构，再写段落** / Define structure before paragraphs
+2. **先填逻辑，再润色表达** / Fill logic before polishing
+3. **先查学术，再去AI味** / Check academic correctness before removing AI traces
+4. **先写正文，再加图表** / Finish main text before adding charts
+
+## Workflow Steps / 工作流步骤
+
+### Step 1: Prepare Inputs / 准备素材
+
+Collect: repo/log files, target conference, contribution summary (1-3 sentences), existing drafts, related review.md files.
+Incomplete materials reduce output quality.
+
+### Step 2: Establish Skeleton / 建立骨架
+
+Use this structure for conference papers:
+
+```
+Title (bilingual if needed)
+Abstract (200-250 words, bilingual)
+1. Introduction
+   1.1 Problem Statement
+   1.2 Contributions (numbered list)
+   1.3 Paper Organization
+2. Related Work
+3. Method
+   3.1 Problem Formulation
+   3.2 Core Algorithm
+   3.3 Theoretical Analysis (if applicable)
+4. Experiments
+   4.1 Setup (datasets, baselines, metrics)
+   4.2 Main Results
+   4.3 Ablation Studies
+5. Discussion & Limitations
+6. Conclusion
+References
+Appendix (proofs, additional results)
+```
+
+### Step 3: Draft Core Sections / 撰写核心章节
+
+Order: Abstract → Introduction → Method → Experiments → Related Work → Limitations
+
+For bilingual papers: write English first, then translate/adapt to Chinese. Use these prompt patterns:
+
+**Translation prompt:**
+```
+You are a professional academic translator. Translate the following [section] from English to Chinese.
+Maintain all technical terms in their standard Chinese translations.
+Keep mathematical notation unchanged. Preserve LaTeX formatting.
+```
+
+**Expansion prompt:**
+```
+You are a top-tier [conference] reviewer. Expand the following bullet points into
+a complete academic paragraph. Maintain formal tone. Include specific numbers
+and comparisons. Target [conference] style.
+```
+
+### Step 4: Polish & Adjust Density / 润色与密度调整
+
+**Abbreviate:** Remove redundancy, merge overlapping sentences.
+**Expand:** Add details, examples, comparisons where thin.
+**Polish:** Fix grammar, improve flow, academic tone.
+
+### Step 5: Logic Check / 逻辑审查
+
+For each section, verify:
+- Claim-evidence alignment
+- No circular reasoning
+- Consistent notation throughout
+- Mathematical proofs are complete
+- Experimental claims are supported by reported numbers
+
+### Step 6: Remove AI Traces / 去AI味
+
+Common AI artifacts to fix:
+- Overly balanced sentence structures → vary length
+- "Furthermore/Moreover" chains → use natural transitions
+- Generic claims → add specific numbers/references
+- Perfect parallel structures → break some
+- "It is worth noting" → just state it
+
+### Step 7: Domain Adaptation / 领域迁移
+
+When adapting a conference paper to a new domain (e.g., ML → Quant Finance):
+
+1. **Identify core methodology** of the source paper
+2. **Map to domain problem**: What is the analogous problem in the target domain?
+3. **Adapt formulation**: Translate mathematical framework to domain-specific notation
+4. **Design domain experiments**: Use domain-specific datasets, baselines, metrics
+5. **Write bilingual abstract**: Bridge both communities' terminology
+
+## Prompt Templates / 提示词模板
+
+### Paper Drafting
+```
+Write the [Section Name] of a paper titled "[Title]" for [Conference].
+Core contribution: [1-2 sentences].
+Key results: [bullet points].
+Target length: [word count].
+Style: formal academic, [conference]-appropriate.
+```
+
+### Method Adaptation (e.g., ML → Quant Finance)
+```
+Adapt the following ML methodology to quantitative finance:
+Source method: [method name and brief description]
+Target problem: [quant finance problem]
+Key adaptations needed:
+- Data: [financial data characteristics]
+- Evaluation: [finance-specific metrics like Sharpe ratio, max drawdown]
+- Constraints: [regulatory, liquidity, execution cost]
+```
+
+### Reviewer Simulation
+```
+You are a reviewer for [conference/journal]. Review the following paper draft.
+Evaluate: (1) novelty, (2) soundness, (3) significance, (4) clarity.
+Provide specific, actionable feedback. Rate: [1-10].
+```
+
+## Quality Checklist / 质量检查清单
+
+- [ ] Title is concise and descriptive
+- [ ] Abstract states problem, method, and results
+- [ ] Introduction ends with explicit contribution list
+- [ ] All claims backed by citations or experiments
+- [ ] Notation consistent throughout
+- [ ] Figures have complete captions
+- [ ] Related work covers closest competitors
+- [ ] Limitations section is honest
+- [ ] References formatted correctly for target venue

@@ -1,6 +1,7 @@
 ---
 name: analytics-data-analysis
 description: Implement analytics, data analysis, and visualization best practices using Python, Jupyter, and modern data tools.
+description_zh: "数据分析与可视化最佳实践，使用Python/Jupyter进行统计分析和交互式可视化"
 install_source: official
 install_method: download
 skill_id: official36467869

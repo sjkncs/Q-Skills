@@ -1,6 +1,7 @@
 ---
 name: deep-research
 description: Conduct systematic deep research on technical topics with source verification, triangulation, and citation-backed reports. Use when the user asks for deep research, comprehensive analysis, technology comparison, trend analysis, state of the art review, or architecture evaluation. Not for simple lookups, debugging, or questions answerable with 1-2 searches.
+description_zh: "对技术主题进行系统性深度研究，包含来源验证、三角互证和引用分析"
 install_source: official
 install_method: download
 skill_id: official03866510

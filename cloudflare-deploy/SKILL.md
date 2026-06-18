@@ -1,6 +1,7 @@
 ---
 name: cloudflare-deploy
 description: Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.
+description_zh: "使用Workers、Pages等平台服务将应用和基础设施部署到Cloudflare"
 author: openai
 install_source: official
 install_method: download

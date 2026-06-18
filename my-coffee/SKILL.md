@@ -1,6 +1,7 @@
 ---
 name: my-coffee
 description: Use when users ask to order Luckin Coffee, search Luckin stores/products, query pickup code/order status, cancel a Luckin order, or mention 瑞幸、luckin、咖啡、点单、下单、门店、取餐码.
+description_zh: "瑞幸咖啡点单助手，搜索门店/产品、查询取餐码/订单状态和管理咖啡订单"
 keywords:
   - 瑞幸
   - luckin

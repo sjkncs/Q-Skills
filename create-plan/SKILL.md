@@ -1,6 +1,7 @@
 ---
 name: create-plan
 description: Convert requirements into executable stories with tasks, dependencies, and targeted technical guidance for coding execution. Use when user wants a requirements doc or feature brief turned into an implementation plan or story JSON.
+description_zh: "将需求转化为可执行的故事卡，包含任务、依赖关系和针对性技术指导"
 install_source: official
 install_method: download
 skill_id: official40838904

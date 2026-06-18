@@ -1,6 +1,7 @@
 ---
 name: Excel Analysis
 description: Analyze Excel spreadsheets, create pivot tables, generate charts, and perform data analysis. Use when analyzing Excel files, spreadsheets, tabular data, or .xlsx files.
+description_zh: "分析Excel电子表格、创建数据透视表、生成图表并执行数据分析"
 install_source: official
 install_method: download
 skill_id: official_y8ZfkMWk

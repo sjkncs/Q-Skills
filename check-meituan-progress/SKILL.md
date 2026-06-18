@@ -1,6 +1,7 @@
 ---
 name: check-meituan-progress
 description: Monitor Meituan merchant review collection progress, run analysis and export after completion, and archive files. Use when the user asks about 美团采集进度, wants to check collection status, needs auto-monitoring, or wants to move files after completion.
+description_zh: "监控美团商家评论采集进度，完成后运行分析并导出结果"
 ---
 
 # Check Meituan Collection Progress

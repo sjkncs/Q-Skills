@@ -1,6 +1,7 @@
 ---
 name: content-research-writer
 description: Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.
+description_zh: "通过调研辅助高质量内容写作，添加引用、改善开头、优化结构和语气"
 install_source: official
 install_method: download
 skill_id: official99793663
